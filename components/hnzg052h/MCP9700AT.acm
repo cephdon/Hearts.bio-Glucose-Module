@@ -1,0 +1,28 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="69d2874f-4848-43a1-b846-fdc81b5adf2e" Name="MCP9700AT" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-9fd75ed0-b9d4-48c2-a5f8-82022fe82cb5" Author="" Notes="" XPosition="270" YPosition="200" Name="EDAModel" ID="id-09cdfd08-f58a-4f15-94dd-f7b12aafbbc5" Package="SOT23-3" Device="SMD" Library="ecad" DeviceSet="MCP9700" xmlns="">
+    <Pin ID="id-8ce48d40-ac4f-407c-a839-d0a6f60ba4fb" PortMap="id-5567c110-29a7-457a-98c2-55a574e2380f" Notes="" XPosition="225" Definition="" YPosition="25" Name="VO" EDAGate="G$1" EDASymbolLocationX="10.16" EDASymbolLocationY="2.54" EDASymbolRotation="R180" SPICEPortNumber="0" />
+    <Pin ID="id-f68f0f43-cc53-4ec5-81cf-a4e49b9346de" PortMap="id-29ce57c2-ca28-4145-bad1-225c9d201954" Notes="" XPosition="125" Definition="" YPosition="25" Name="VCC" EDAGate="G$1" EDASymbolLocationX="-10.16" EDASymbolLocationY="2.54" EDASymbolRotation="0" SPICEPortNumber="0" />
+    <Pin ID="id-1b916b59-363b-4bb8-90f1-da1388066a2e" PortMap="id-78227560-95a3-4cee-b9c3-0ca462a61f23 id-22d5b130-38d2-4af5-94c5-ad703dba0735" Notes="" XPosition="25" Definition="" YPosition="25" Name="GND" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="-5.08" EDASymbolRotation="R90" SPICEPortNumber="0" />
+  </DomainModel>
+  <Property xmlns:q2="avm" xsi:type="q2:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-3085f3d4-9200-4e70-b480-c46d13fc51d0" XPosition="336" YPosition="28" xmlns="">
+    <Value ID="id-3085f3d4-9200-4e70-b480-c46d13fc51d0" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q2:FixedValue">
+        <Value>MCP9700AT-E/TT</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="Icon.png" Path="Icon.png" Hash="" ID="id-4c172e60-686d-4791-ae33-94c989024c6c" Notes="Custom icon for this component" XPosition="112" YPosition="7" xmlns="" />
+  <ResourceDependency Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-9fd75ed0-b9d4-48c2-a5f8-82022fe82cb5" Notes="Standalone EAGLE library for this device" XPosition="650" YPosition="200" xmlns="" />
+  <ResourceDependency Name="MCP9700AT-E_TT.md" Path="doc\MCP9700AT-E_TT.md" Hash="" ID="id-83f132bf-d1b3-4449-bb75-51deec8c9f3b" Notes="" XPosition="42" YPosition="14" xmlns="" />
+  <ResourceDependency Name="mcp9700.pdf" Path="doc\mcp9700.pdf" Hash="" ID="id-0cdd15ea-aca8-48eb-b979-045b88c532d5" Notes="" XPosition="203" YPosition="14" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-d563e3cc-0fcc-47cb-8c46-12e538e0abf7" ApplyJoinData="" XPosition="84" YPosition="105" Notes="" Definition="PwrGnd_TwoPort" Name="VCC" xmlns="">
+    <Role xmlns:q3="schematic" xsi:type="q3:Pin" ID="id-29ce57c2-ca28-4145-bad1-225c9d201954" PortMap="" Notes="" XPosition="224" Definition="" YPosition="49" Name="VCC" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-22d5b130-38d2-4af5-94c5-ad703dba0735" PortMap="" Notes="" XPosition="224" Definition="" YPosition="126" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-f9a3aef7-2c2f-4545-bd5b-c03aa27b891f" ApplyJoinData="" XPosition="511" YPosition="238" Notes="" Definition="AnalogSignal" Name="VO" xmlns="">
+    <Role xmlns:q5="schematic" xsi:type="q5:Pin" ID="id-78227560-95a3-4cee-b9c3-0ca462a61f23" PortMap="" Notes="" XPosition="42" Definition="" YPosition="119" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q6="schematic" xsi:type="q6:Pin" ID="id-5567c110-29a7-457a-98c2-55a574e2380f" PortMap="" Notes="" XPosition="42" Definition="" YPosition="42" Name="S" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">semiconductors_and_actives.uncategorized</Classifications>
+</Component>

@@ -1,0 +1,361 @@
+{
+  "boardWidth": 40.0,
+  "boardHeight": 40.0,
+  "numLayers": 2,
+  "packages": [
+    {
+      "name": "MCP9700AT",
+      "package": "SOT23-3",
+      "pkg_idx": 0,
+      "ComponentID": "{5e8628ed-2247-478c-b6fc-cb6ca4c175d2}{62ddfac5-509f-4083-92c5-db678d0697df}",
+      "width": 2.8448,
+      "height": 3.0,
+      "koWidth": 2.8448,
+      "koHeight": 3.0,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "R89",
+      "package": "R_0402",
+      "pkg_idx": 1,
+      "ComponentID": "{5e8628ed-2247-478c-b6fc-cb6ca4c175d2}{b347ed28-c6e3-48ef-b01d-dec1a95fd315}",
+      "width": 1.3,
+      "height": 0.55,
+      "koWidth": 1.3,
+      "koHeight": 0.55,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "R90",
+      "package": "R_0402",
+      "pkg_idx": 2,
+      "ComponentID": "{5e8628ed-2247-478c-b6fc-cb6ca4c175d2}{cb2ab2b3-7746-46c0-9311-bef91d27d0e1}",
+      "width": 1.3,
+      "height": 0.55,
+      "koWidth": 1.3,
+      "koHeight": 0.55,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "C183",
+      "package": "C_0402",
+      "pkg_idx": 3,
+      "ComponentID": "{d102cf4f-6827-4900-aa61-a7686ba23ff6}",
+      "width": 2.14,
+      "height": 0.74,
+      "koWidth": 2.14,
+      "koHeight": 0.74,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "C79",
+      "package": "C_0402",
+      "pkg_idx": 4,
+      "ComponentID": "{8cd1adb3-18e3-4be6-b1a0-ebc6d82f602e}",
+      "width": 2.14,
+      "height": 0.74,
+      "koWidth": 2.14,
+      "koHeight": 0.74,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "C80",
+      "package": "C_0402",
+      "pkg_idx": 5,
+      "ComponentID": "{7bcc3690-69a9-4edd-901c-c6fd0f7175fa}",
+      "width": 2.14,
+      "height": 0.74,
+      "koWidth": 2.14,
+      "koHeight": 0.74,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "C91",
+      "package": "C_0402",
+      "pkg_idx": 6,
+      "ComponentID": "{94ef1dc9-9497-43b9-9630-3460b8b6c4bf}",
+      "width": 2.14,
+      "height": 0.74,
+      "koWidth": 2.14,
+      "koHeight": 0.74,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "PIC16LF1786_ML",
+      "package": "28-QFN",
+      "pkg_idx": 7,
+      "ComponentID": "{a72e2f1f-5be3-4c13-84a1-5f6a1c3cdd14}",
+      "width": 7.4041999999999994,
+      "height": 6.7,
+      "koWidth": 7.4041999999999994,
+      "koHeight": 6.7,
+      "originX": -0.4,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "R49",
+      "package": "R_0402",
+      "pkg_idx": 8,
+      "ComponentID": "{82cd6d19-a88f-4be0-a842-4f44a26a87ff}",
+      "width": 1.3,
+      "height": 0.55,
+      "koWidth": 1.3,
+      "koHeight": 0.55,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "R50",
+      "package": "R_0402",
+      "pkg_idx": 9,
+      "ComponentID": "{b280151a-896a-4345-8669-0d0a33020169}",
+      "width": 1.3,
+      "height": 0.55,
+      "koWidth": 1.3,
+      "koHeight": 0.55,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "R81",
+      "package": "R_0402",
+      "pkg_idx": 10,
+      "ComponentID": "{fe3e9475-8ca8-49de-831f-0cbe54b06c00}",
+      "width": 1.3,
+      "height": 0.55,
+      "koWidth": 1.3,
+      "koHeight": 0.55,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "R82",
+      "package": "R_0402",
+      "pkg_idx": 11,
+      "ComponentID": "{0642cc12-52f6-414c-9007-67d5291a2ab4}",
+      "width": 1.3,
+      "height": 0.55,
+      "koWidth": 1.3,
+      "koHeight": 0.55,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "R85",
+      "package": "R_0402",
+      "pkg_idx": 12,
+      "ComponentID": "{40d34c08-f78b-4e95-8cff-b989e911485b}",
+      "width": 1.3,
+      "height": 0.55,
+      "koWidth": 1.3,
+      "koHeight": 0.55,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "R86",
+      "package": "R_0402",
+      "pkg_idx": 13,
+      "ComponentID": "{d09b082c-3302-4aa2-8dab-a19da0b10c5a}",
+      "width": 1.3,
+      "height": 0.55,
+      "koWidth": 1.3,
+      "koHeight": 0.55,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "R87",
+      "package": "R_0402",
+      "pkg_idx": 14,
+      "ComponentID": "{17b29edf-3ca6-4466-987d-028001c3a655}",
+      "width": 1.3,
+      "height": 0.55,
+      "koWidth": 1.3,
+      "koHeight": 0.55,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "R88",
+      "package": "R_0402",
+      "pkg_idx": 15,
+      "ComponentID": "{89778576-cd6a-4354-be93-2dab117f2737}",
+      "width": 1.3,
+      "height": 0.55,
+      "koWidth": 1.3,
+      "koHeight": 0.55,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    },
+    {
+      "name": "R94",
+      "package": "R_0402",
+      "pkg_idx": 16,
+      "ComponentID": "{beaf1117-8fd5-4679-8176-f28c3c593241}",
+      "width": 1.3,
+      "height": 0.55,
+      "koWidth": 1.3,
+      "koHeight": 0.55,
+      "originX": 0.0,
+      "originY": 0.0,
+      "constraints": []
+    }
+  ],
+  "signals": [
+    {
+      "name": "N$0",
+      "pins": [
+        {
+          "name": "P$1",
+          "gate": "G$1",
+          "pad": "1",
+          "package": "C79"
+        },
+        {
+          "name": "1",
+          "gate": "G$1",
+          "pad": "P$1",
+          "package": "R50"
+        }
+      ]
+    },
+    {
+      "name": "N$1",
+      "pins": [
+        {
+          "name": "P$2",
+          "gate": "G$1",
+          "pad": "2",
+          "package": "C79"
+        },
+        {
+          "name": "1",
+          "gate": "G$1",
+          "pad": "P$1",
+          "package": "R49"
+        },
+        {
+          "name": "2",
+          "gate": "G$1",
+          "pad": "P$2",
+          "package": "R50"
+        }
+      ]
+    },
+    {
+      "name": "N$2",
+      "pins": [
+        {
+          "name": "P$1",
+          "gate": "G$1",
+          "pad": "1",
+          "package": "C80"
+        },
+        {
+          "name": "VSS",
+          "gate": "G$1",
+          "pad": "P$5 P$16 PAD",
+          "package": "PIC16LF1786_ML"
+        }
+      ]
+    },
+    {
+      "name": "N$3",
+      "pins": [
+        {
+          "name": "P$2",
+          "gate": "G$1",
+          "pad": "2",
+          "package": "C80"
+        },
+        {
+          "name": "2",
+          "gate": "G$1",
+          "pad": "P$2",
+          "package": "R49"
+        }
+      ]
+    },
+    {
+      "name": "N$4",
+      "pins": [
+        {
+          "name": "P$1",
+          "gate": "G$1",
+          "pad": "1",
+          "package": "C91"
+        },
+        {
+          "name": "1",
+          "gate": "G$1",
+          "pad": "P$1",
+          "package": "R88"
+        },
+        {
+          "name": "2",
+          "gate": "G$1",
+          "pad": "P$2",
+          "package": "R87"
+        }
+      ]
+    },
+    {
+      "name": "N$5",
+      "pins": [
+        {
+          "name": "1",
+          "gate": "G$1",
+          "pad": "P$1",
+          "package": "R81"
+        },
+        {
+          "name": "2",
+          "gate": "G$1",
+          "pad": "P$2",
+          "package": "R85"
+        }
+      ]
+    },
+    {
+      "name": "N$6",
+      "pins": [
+        {
+          "name": "1",
+          "gate": "G$1",
+          "pad": "P$1",
+          "package": "R82"
+        },
+        {
+          "name": "2",
+          "gate": "G$1",
+          "pad": "P$2",
+          "package": "R86"
+        }
+      ]
+    }
+  ]
+}

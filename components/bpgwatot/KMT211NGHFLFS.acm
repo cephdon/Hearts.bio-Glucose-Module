@@ -1,0 +1,26 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="03112b05-989b-447c-acc8-b5b4de4327e0" Name="KMT211NGHFLFS" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-8d80caa3-6d29-422c-aaa3-702eadabccfc" Author="" Notes="" XPosition="270" YPosition="200" Name="EDAModel" ID="id-4caabd09-483b-44a2-b8ef-0f84bc4d0fc6" Package="NANOSMT" Device="" Library="Batch_2" DeviceSet="KMT2" xmlns="">
+    <Pin ID="id-cf8f2ce6-3f8c-4dbe-b20c-3636288d36b8" PortMap="" Notes="" XPosition="325" Definition="" YPosition="25" Name="P$4" EDAGate="G$1" EDASymbolLocationX="12.7" EDASymbolLocationY="-5.08" EDASymbolRotation="R180" SPICEPortNumber="0" />
+    <Pin ID="id-4bd01933-a2c6-434a-9962-55d2d041a0d4" PortMap="" Notes="" XPosition="25" Definition="" YPosition="25" Name="P$1" EDAGate="G$1" EDASymbolLocationX="-12.7" EDASymbolLocationY="5.08" EDASymbolRotation="0" SPICEPortNumber="0" />
+    <Pin ID="id-35d2fe48-1d70-426b-80a6-c8ad7b03f028" PortMap="" Notes="" XPosition="125" Definition="" YPosition="25" Name="P$2" EDAGate="G$1" EDASymbolLocationX="12.7" EDASymbolLocationY="5.08" EDASymbolRotation="R180" SPICEPortNumber="0" />
+    <Pin ID="id-adf1ff19-4e43-49c3-9c53-61d9bea3a518" PortMap="" Notes="" XPosition="225" Definition="" YPosition="25" Name="P$3" EDAGate="G$1" EDASymbolLocationX="-12.7" EDASymbolLocationY="-5.08" EDASymbolRotation="0" SPICEPortNumber="0" />
+  </DomainModel>
+  <Property xmlns:q2="avm" xsi:type="q2:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-3085f3d4-9200-4e70-b480-c46d13fc51d0" XPosition="336" YPosition="28" xmlns="">
+    <Value ID="id-3085f3d4-9200-4e70-b480-c46d13fc51d0" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q2:FixedValue">
+        <Value>KMT211NGHFLFS</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-8d80caa3-6d29-422c-aaa3-702eadabccfc" Notes="Standalone EAGLE library for this device" XPosition="650" YPosition="200" xmlns="" />
+  <ResourceDependency Name="Icon.png" Path="Icon.png" Hash="" ID="id-0499f679-b199-4511-a082-147d0a9fc1df" Notes="Custom icon for this component" XPosition="126" YPosition="14" xmlns="" />
+  <ResourceDependency Name="KMT2_9aug12.pdf" Path="doc\KMT2_9aug12.pdf" Hash="" ID="id-12ce4d1a-6a38-47d8-a047-3241bb197838" Notes="" XPosition="49" YPosition="7" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-6586250f-8142-4775-a67b-bcce899639f6" ApplyJoinData="" XPosition="42" YPosition="280" Notes="" Definition="StdPin" Name="P1" xmlns="">
+    <Role xmlns:q3="schematic" xsi:type="q3:Pin" ID="id-a68942eb-74ba-455d-9605-d705cc82fa0f" PortMap="id-4bd01933-a2c6-434a-9962-55d2d041a0d4 id-35d2fe48-1d70-426b-80a6-c8ad7b03f028" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Connector ConnectorComposition="" ID="id-de560aee-6ade-4585-ad99-88aca1bd5729" ApplyJoinData="" XPosition="427" YPosition="280" Notes="" Definition="StdPin" Name="P2" xmlns="">
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-60831b7b-5ebf-4362-b146-a28a17caf1ba" PortMap="id-cf8f2ce6-3f8c-4dbe-b20c-3636288d36b8 id-adf1ff19-4e43-49c3-9c53-61d9bea3a518" Notes="" XPosition="35" Definition="" YPosition="147" Name="Pin" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">industrial_control.switches.tactile-jog</Classifications>
+</Component>

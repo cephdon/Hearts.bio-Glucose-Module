@@ -1,0 +1,49 @@
+{
+  "Status": "OK", 
+  "CopyTestResults": false, 
+  "Parameters": [
+    {
+      "Description": "", 
+      "DisplayedName": null, 
+      "GMEID": "id-0067-000006cf", 
+      "Value": "0.4", 
+      "Range": "-inf..inf", 
+      "ID": "5f0f065a-28f6-466c-bcc7-5c96093b74bb", 
+      "Unit": "", 
+      "Name": "boardEdgeSpace"
+    }, 
+    {
+      "Description": "", 
+      "DisplayedName": null, 
+      "GMEID": "id-0067-000006d0", 
+      "Value": "0.4", 
+      "Range": "-inf..inf", 
+      "ID": "4fdc2b08-8346-4b08-a2ae-b8ae6b08f2ba", 
+      "Unit": "", 
+      "Name": "interChipSpace"
+    }
+  ], 
+  "TierLevel": 0, 
+  "Artifacts": [], 
+  "VisualizationArtifacts": [], 
+  "DesignName": "TopLevel_Glucose", 
+  "Metrics": [], 
+  "DesignID": "{b0b53c6b-0950-4e1a-874e-784439c6752d}", 
+  "Dependencies": [], 
+  "Steps": [
+    {
+      "ExecutionCompletionTimestamp": "2015-04-13T13:44:09.223000", 
+      "Status": "OK", 
+      "Description": null, 
+      "Parameters": [], 
+      "ExecutionStartTimestamp": "2015-04-13T13:44:00.327000", 
+      "PreProcess": null, 
+      "PostProcess": null, 
+      "Invocation": "placement.bat -i 0.4 -e 0.4", 
+      "LogFile": "log/log2015-04-13T134400.327000.log", 
+      "Type": null
+    }
+  ], 
+  "TestBench": "Place_and_Route", 
+  "Created": "2015-04-13T18:43:53.6401755Z"
+}

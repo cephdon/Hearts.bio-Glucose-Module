@@ -1,0 +1,57 @@
+<eagle version="6.5.0" xmlns="eagle">
+  <drawing>
+    <library>
+      <packages>
+        <package name="SOT23-3" xmlns="eagle">
+          <wire x1="1.4224" y1="0.6604" x2="1.4224" y2="-0.6604" width="0.1524" layer="21" />
+          <wire x1="1.4224" y1="-0.6604" x2="-1.4224" y2="-0.6604" width="0.1524" layer="21" />
+          <wire x1="-1.4224" y1="-0.6604" x2="-1.4224" y2="0.6604" width="0.1524" layer="21" />
+          <wire x1="-1.4224" y1="0.6604" x2="1.4224" y2="0.6604" width="0.1524" layer="21" />
+          <wire x1="-0.8" y1="0.7" x2="-1.4" y2="0.7" width="0.2032" layer="21" />
+          <wire x1="-1.4" y1="0.7" x2="-1.4" y2="-0.1" width="0.2032" layer="21" />
+          <wire x1="0.8" y1="0.7" x2="1.4" y2="0.7" width="0.2032" layer="21" />
+          <wire x1="1.4" y1="0.7" x2="1.4" y2="-0.1" width="0.2032" layer="21" />
+          <smd name="3" x="0" y="1.1" dx="0.8" dy="0.9" layer="1" />
+          <smd name="2" x="0.95" y="-1" dx="0.8" dy="0.9" layer="1" />
+          <smd name="1" x="-0.95" y="-1" dx="0.8" dy="0.9" layer="1" />
+          <text x="-0.8255" y="1.778" size="1.016" layer="25" ratio="15" font="vector">&gt;NAME</text>
+        </package>
+      </packages>
+      <symbols>
+        <symbol name="MCP9700">
+          <wire x1="-7.62" y1="5.08" x2="7.62" y2="5.08" width="0.254" layer="94" xmlns="eagle" />
+          <wire x1="7.62" y1="5.08" x2="7.62" y2="-2.54" width="0.254" layer="94" xmlns="eagle" />
+          <wire x1="7.62" y1="-2.54" x2="-7.62" y2="-2.54" width="0.254" layer="94" xmlns="eagle" />
+          <wire x1="-7.62" y1="-2.54" x2="-7.62" y2="5.08" width="0.254" layer="94" xmlns="eagle" />
+          <text x="-2.286" y="-1.524" size="1.778" layer="95" xmlns="eagle">GND</text>
+          <text x="-7.62" y="5.588" size="1.778" layer="95" xmlns="eagle">&gt;Name</text>
+          <text x="2.54" y="5.588" size="1.778" layer="96" xmlns="eagle">&gt;Value</text>
+          <pin name="GND" x="0" y="-5.08" visible="off" length="short" rot="R90" direction="pas" xmlns="eagle" />
+          <pin name="VCC" x="-10.16" y="2.54" visible="pin" length="short" direction="pas" xmlns="eagle" />
+          <pin name="VO" x="10.16" y="2.54" visible="pin" length="short" rot="R180" direction="pas" xmlns="eagle" />
+        </symbol>
+      </symbols>
+      <devicesets>
+        <deviceset name="MCP9700">
+          <gates>
+            <gate name="G$1" symbol="MCP9700" x="0" y="-2.54" />
+          </gates>
+          <devices>
+            <device name="SMD" package="SOT23-3" xmlns="eagle">
+              <connects>
+                <connect gate="G$1" pin="GND" pad="3" />
+                <connect gate="G$1" pin="VCC" pad="1" />
+                <connect gate="G$1" pin="VO" pad="2" />
+              </connects>
+              <technologies>
+                <technology name="">
+                  <attribute name="PROD_ID" value="IC-08917" constant="no" />
+                </technology>
+              </technologies>
+            </device>
+          </devices>
+        </deviceset>
+      </devicesets>
+    </library>
+  </drawing>
+</eagle>

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+<Component xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xmlns:xsd="http://www.w3.org/2001/XMLSchema" SchemaVersion="2.5" ID="211630e9-d8eb-4706-83ce-d1662f584eaf" Name="3080_Battery_Retainer" Version="" xmlns="avm">
+  <DomainModel xmlns:q1="eda" xsi:type="q1:EDAModel" UsesResource="id-fd5869ab-d6e9-47b7-ac7f-7eef59b0b1b7" Author="" Notes="" XPosition="270" YPosition="214" Name="EDAModel" ID="id-e585f6a5-ba62-4e29-8ae4-cd8f6db66bbd" Package="3080" Device="" Library="Batch_2" DeviceSet="3080" xmlns="">
+    <Pin ID="id-75505402-f4ec-4b6c-8189-6eb153e4027d" PortMap="" Notes="" XPosition="25" Definition="" YPosition="25" Name="NEG" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="-7.62" EDASymbolRotation="R90" SPICEPortNumber="0" />
+    <Pin ID="id-27986e9e-86f8-4e6e-ba53-425f9916c9f0" PortMap="id-98693f66-f811-4b94-a912-9d976687aa87" Notes="" XPosition="125" Definition="" YPosition="25" Name="POS" EDAGate="G$1" EDASymbolLocationX="0" EDASymbolLocationY="10.16" EDASymbolRotation="R270" SPICEPortNumber="0" />
+  </DomainModel>
+  <Property xmlns:q2="avm" xsi:type="q2:PrimitiveProperty" Name="octopart_mpn" OnDataSheet="false" ID="property.id-f678d49a-2090-4c8e-98a2-7aa7c4c54c57" XPosition="105" YPosition="14" xmlns="">
+    <Value ID="id-f678d49a-2090-4c8e-98a2-7aa7c4c54c57" DimensionType="Scalar" Dimensions="" DataType="String">
+      <ValueExpression xsi:type="q2:FixedValue">
+        <Value>3080</Value>
+      </ValueExpression>
+    </Value>
+  </Property>
+  <ResourceDependency Name="3080 Battery Holder.md" Path="doc\3080 Battery Holder.md" Hash="" ID="id-8c8b9527-7831-45b6-99fd-4fb14a1e813f" Notes="" xmlns="" />
+  <ResourceDependency Name="ecad" Path="Schematic\ecad.lbr" Hash="" ID="id-fd5869ab-d6e9-47b7-ac7f-7eef59b0b1b7" Notes="Standalone EAGLE library for this device" XPosition="650" YPosition="214" xmlns="" />
+  <ResourceDependency Name="Keystone-3080-datasheet.pdf" Path="doc\Keystone-3080-datasheet.pdf" Hash="" ID="id-6113ecb5-7893-4264-8790-76af2be131dc" Notes="" XPosition="49" YPosition="49" xmlns="" />
+  <ResourceDependency Name="Icon.png" Path="Icon.png" Hash="" ID="id-ec090aed-c07b-4de0-a69d-b1c6e5025cfe" Notes="Custom icon for this component" XPosition="42" YPosition="7" xmlns="" />
+  <Connector ConnectorComposition="" ID="id-5ae6b7b1-dce0-4aaa-bef9-56fc6885f3a0" ApplyJoinData="" XPosition="245" YPosition="91" Notes="" Definition="PwrGnd_TwoPort" Name="Battery_Power" xmlns="">
+    <Role xmlns:q3="schematic" xsi:type="q3:Pin" ID="id-15de8f3b-c385-457c-8b01-09c64b50d3ac" PortMap="id-75505402-f4ec-4b6c-8189-6eb153e4027d" Notes="" XPosition="224" Definition="" YPosition="126" Name="GND" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+    <Role xmlns:q4="schematic" xsi:type="q4:Pin" ID="id-98693f66-f811-4b94-a912-9d976687aa87" PortMap="" Notes="" XPosition="224" Definition="" YPosition="49" Name="VCC" EDAGate="" EDASymbolLocationX="" EDASymbolLocationY="" EDASymbolRotation="" SPICEPortNumber="0" />
+  </Connector>
+  <Classifications xmlns="">power_products.batteries_and_accessories</Classifications>
+</Component>

@@ -1,0 +1,41 @@
+
+HKEY_LOCAL_MACHINE\software\META
+    META_PATH    REG_SZ    C:\Program Files (x86)\META\
+
+Input: layout-input.json
+Output: layout.json
+Inter chip gap: 0.4
+Board edge gap: 0.4
+Applying User-defined Package Constraints ...
+Applying User-defined Global/Group Constraints ...
+Board Width: 40 Board Height: 40 Layers: 2
+Number of Chips: 17 Total Chip Area: 558.57
+Layout Density = 0.215498
+Package[nnn]{WWW,HHH}: X,Y,Z,R
+package[  0]{ 29, 30}:66,185,0,0
+package[  1]{ 13,  6}:23,156,0,0
+package[  2]{ 13,  6}:43,175,0,0
+package[  3]{ 22,  8}:22,94,0,0
+package[  4]{ 22,  8}:51,189,0,1
+package[  5]{ 22,  8}:7,189,0,1
+package[  6]{ 22,  8}:22,196,0,0
+package[  7]{ 75, 67}:162,166,0,0
+package[  8]{ 13,  6}:46,165,0,0
+package[  9]{ 13,  6}:46,142,0,0
+package[ 10]{ 13,  6}:4,175,0,0
+package[ 11]{ 13,  6}:4,152,0,0
+package[ 12]{ 13,  6}:6,165,0,0
+package[ 13]{ 13,  6}:6,142,0,0
+package[ 14]{ 13,  6}:26,183,0,0
+package[ 15]{ 13,  6}:26,171,0,0
+package[ 16]{ 13,  6}:26,146,0,0
+Time : 0
+Parsed Schematic File : schema.sch
+Parsed Eagle Library schema version: 6.5.0
+Error in reading design rules file Value cannot be null.
+Parameter name: path
+
+HKEY_LOCAL_MACHINE\Software\Microsoft\Windows\CurrentVersion\App Paths\eagle.exe
+    Path    REG_SZ    C:\Program Files (x86)\EAGLE-6.5.0
+
+"using default autoroute settings"
